@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>zoë's corner of the internet</title>
+    <!-- todo: <link rel="stylesheet" href="https://unpkg.com/remarkdown.css/dist/remarkdown.css"> -->
+    <style>
+        :root {
+            --bg-color: #292636;
+            --content-color: white;
+        }
+
+        .centered {
+            max-width: fit-content;
+            margin-inline: auto;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: underline;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--content-color);
+            font-family: monospace;
+            margin: 0;
+        }
+
+        header {
+            font-size: 1.5em;
+            height: 40%;
+            padding: 1%;
+            border-bottom: solid thick white;
+        }
+
+        header nav {
+            display: grid;
+        }
+
+        /* list of links to other parts of the website */
+        /* -- they should all be side by side -- */
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline-block; /* ?idk why but this works? */
+        }
+        nav li:not(:last-of-type)::after {
+            padding: 0%;
+            margin: 0%;
+            content: '|';
+        }
+
+        /* todo: put a bunch of tildes to separate
+        footer::before {
+            width: 100%;
+            the footer from the rest of the page
+        } */
+        footer {
+            border-top: solid thick white;
+            width: auto;
+        }
+
+        footer img {
+            height: 40px;
+        }
+    </style>
+</head>
+
+<body class="remarkdown">
+    <header>
+        <h1 class="centered" style="text-align: center;">
+            zoë's corner of the internet
+            <!-- julie is fine too :) -->
+        </h1>
+        <nav style="margin: 1em;">
+            <ul class="centered">
+                <li>
+                    <a href="/" alt="home -- you're already there">home</a>
+                </li>
+                <li>
+                    <a href="/blog">blogggggggggggg</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main style="margin: 5em;">
+        <div class="centered">
+            <img src="/badges/construction.gif"/>
+        </div>
+    </main>
+
+    <footer style="padding: 2em;">
+        <p class="centered">
+            Site by @blokyk (find me on <a href="https://github.com/blokyk">github</a> if needed)
+        </p>
+        <div id="badges" class="centered" style="margin-top: 2em;">
+            <a href="https://glassbeach.band/"><img src="badges/tfgba.png"/></a>
+            <img src="/badges/install_gender_malware.webp"/>
+        </div>
+    </footer>
+</body>
+
+</html>
