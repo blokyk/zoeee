@@ -19,6 +19,9 @@
         data-lang="en"
         async
     ></script> -->
+    <link rel="stylesheet" href="primer/globals.css" />
+    <link rel="stylesheet" href="primer/base.css" />
+    <link rel="stylesheet" href="primer/dark.css" />
     <style>
         :root {
             --bg-color: #292636;
@@ -70,6 +73,37 @@
             content: '|';
         }
 
+        /* #thoughts {
+            background-image: url("https://blueseatblogs.com/wp-content/uploads/2018/07/consciousness-709143-400x300.jpg");
+            background-position: center;
+            background-clip: none;
+            background-repeat: no-repeat;
+            background-size: contain;
+        } */
+
+        #thoughts { position: relative; }
+        #thoughts-bg {
+            opacity: 0.3;
+            z-index: -99;
+            position: absolute;
+            left: 0%;
+            top: 0%;
+        }
+
+        .thought {
+            max-width: 50vh;
+        }
+
+        .thought blockquote {
+            margin-left: 1em;
+            padding: 0 1em;
+            border-left: .25em solid #3d444d;
+        }
+
+        .thought time {
+            color: #9198a1;
+        }
+
         /* todo: put a bunch of tildes to separate
         footer::before {
             width: 100%;
@@ -107,6 +141,31 @@
     <main style="margin: 5em;">
         <div class="centered">
             <img src="/badges/construction.gif"/>
+        </div>
+
+        <hr style="margin: inherit;"/>
+
+        <div id="thoughts" class="centered">
+            <!-- <img id="thoughts-bg" src="https://blueseatblogs.com/wp-content/uploads/2018/07/consciousness-709143-400x300.jpg" /> -->
+            <h2>silly little thoughts</h3>
+            <div class="thought">
+                <i><time datetime="2025-03-18T01:25">on 2025-03-18 @ 1h25</time></i>
+                <blockquote>
+                    setting up my <abbr title="monolog">mnlg</abbr>
+                </blockquote>
+            </div>
+            <div class="thought">
+                <i><time datetime="2025-03-16T15:54">on 2025-03-16 @ 15h54</time></i>
+                <blockquote>
+                    but you can't talk :P
+                </blockquote>
+            </div>
+            <div class="thought">
+                <i><time datetime="2025-03-16T15:13">on 2025-03-16 @ 15h13</time></i>
+                <blockquote>
+                    If all goes well, this should be the only discussion here :)
+                </blockquote>
+            </div>
         </div>
     </main>
 
