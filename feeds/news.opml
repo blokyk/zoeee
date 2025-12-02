@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.1">
+  <head>
+    <title>regular news blogs and feeds</title>
+  </head>
+  <body>
+    <outline title="Citation Needed" text="Citation Needed" type="rss" xmlUrl="https://www.citationneeded.news/rss/"/>
+  </body>
+</opml>

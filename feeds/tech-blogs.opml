@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.1">
+  <head>
+    <title>tech blogs</title>
+  </head>
+  <body>
+    <outline title="lexi-lambda (Alexis King)" text="lexi-lambda (Alexis King)" type="rss" xmlUrl="https://lexi-lambda.github.io/feeds/all.atom.xml"/>
+    <outline title="Coding Horror | Jeff Atwood" text="Coding Horror | Jeff Atwood" type="rss" xmlUrl="https://blog.codinghorror.com/rss/"/>
+    <outline title="Ellie Clifford&apos;s blog" text="Ellie Clifford&apos;s blog" type="rss" xmlUrl="https://ellie.clifford.lol/blog/rss.xml"/>
+    <outline title="Krzyhau&apos;s Blog" text="Krzyhau&apos;s Blog" type="rss" xmlUrl="https://blog.krzyhau.pl/atom.xml"/>
+    <outline title="Ludicity" text="Ludicity" type="rss" xmlUrl="https://ludic.mataroa.blog/rss/"/>
+    <outline title="Maister&apos;s Graphics Adventures" text="Maister&apos;s Graphics Adventures" type="rss" xmlUrl="https://themaister.net/blog/feed/"/>
+    <outline title="Mike Blumenkrantz" text="Mike Blumenkrantz" type="rss" xmlUrl="https://www.supergoodcode.com/feed.xml"/>
+    <outline title="yoh.dev | One dev’s thoughts" text="yoh.dev | One dev’s thoughts" type="rss" xmlUrl="https://yoh.dev/feed.xml"/>
+    <outline title="CuriousCoding — Ragnar Groot Koerkamp" text="CuriousCoding — Ragnar Groot Koerkamp" type="rss" xmlUrl="https://curiouscoding.nl/posts/index.xml"/>
+    <outline title="Ralf&apos;s Ramblings" text="Ralf&apos;s Ramblings" type="rss" xmlUrl="https://www.ralfj.de/blog/feed.xml"/>
+    <outline title="Siguza&apos;s Blog" text="Siguza&apos;s Blog" type="rss" xmlUrl="https://blog.siguza.net/rss.xml"/>
+    <outline title="Washi" text="Washi" type="rss" xmlUrl="https://blog.washi.dev/feed.xml"/>
+    <outline title="benjojo blog" text="benjojo blog" type="rss" xmlUrl="https://blog.benjojo.co.uk/rss.xml"/>
+    <outline title="dragon posting" text="dragon posting" type="rss" xmlUrl="https://blog.awoo.systems/atom.xml"/>
+    <outline title="fasterthanli.me" text="fasterthanli.me" type="rss" xmlUrl="https://fasterthanli.me/index.xml"/>
+    <outline title="jade&apos;s www site" text="jade&apos;s www site" type="rss" xmlUrl="https://jade.fyi/rss.xml"/>
+    <outline title="jakelazaroff.com" text="jakelazaroff.com" type="rss" xmlUrl="https://jakelazaroff.com/rss.xml"/>
+    <outline title="maia crimew" text="maia crimew" type="rss" xmlUrl="https://maia.crimew.gay/feed.xml"/>
+    <outline title="mango.pdf.zone" text="mango.pdf.zone" type="rss" xmlUrl="https://mango.pdf.zone/feed.xml"/>
+    <outline title="mcyoung" text="mcyoung" type="rss" xmlUrl="https://mcyoung.xyz/atom.xml"/>
+    <outline title="nerdypepper&apos;s μblog" text="nerdypepper&apos;s μblog" type="rss" xmlUrl="https://oppi.li/index.xml"/>
+    <outline title="slembcke&apos;s Blog" text="slembcke&apos;s Blog" type="rss" xmlUrl="https://www.slembcke.net/blog/feed.xml"/>
+  </body>
+</opml>
