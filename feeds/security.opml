@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.1">
+  <head>
+    <title>cybersecurity blogs &amp; news</title>
+  </head>
+  <body>
+    <outline title="Aleph Research" text="Security Research by HCL Software" type="rss" xmlUrl="https://alephsecurity.com/feed.xml"/>
+    <outline title="Siguza&apos;s Blog" text="Siguza&apos;s Blog" type="rss" xmlUrl="https://blog.siguza.net/rss.xml"/>
+    <outline title="mango.pdf.zone" text="mango.pdf.zone" type="rss" xmlUrl="https://mango.pdf.zone/feed.xml"/>
+  </body>
+</opml>
