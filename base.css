@@ -30,14 +30,20 @@ body {
     background-color: var(--bg-color);
     color: var(--content-color);
     font-family: monospace;
-    margin: 0;
+    margin: 0; /* need for the breaks between header / main / footer */
+}
+
+hr.full-width {
+    margin-left: 0%;
+    margin-right: 0%;
+    border-bottom: solid thick white;
 }
 
 header {
     font-size: 1.5em;
     height: 40%;
     padding: 1%;
-    border-bottom: solid thick white;
+    /* border-bottom: solid thick white; */
 }
 
 header nav {
@@ -70,11 +76,6 @@ main {
 
 main p {
     text-align: justify !important; /* override the '.centered a' rules */
-}
-
-footer {
-    border-top: solid thick white;
-    width: auto;
 }
 
 /* todo: put a bunch of tildes to separate
