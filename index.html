@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8">
     <title>zoë's corner of the internet</title>
     <!-- todo: <link rel="stylesheet" href="https://unpkg.com/remarkdown.css/dist/remarkdown.css"> -->
     <!-- <script src="http://zoe.net:3000/client.js"
@@ -19,67 +19,8 @@
         data-lang="en"
         async
     ></script> -->
+    <link rel="stylesheet" type="text/css" href="base.css">
     <style>
-        :root {
-            --bg-color: #292636;
-            --content-color: white;
-        }
-
-        .centered {
-            max-width: fit-content;
-            margin-inline: auto;
-        }
-
-        a {
-            color: inherit;
-            text-decoration: underline;
-        }
-
-        body {
-            background-color: var(--bg-color);
-            color: var(--content-color);
-            font-family: monospace;
-            margin: 0;
-        }
-
-        header {
-            font-size: 1.5em;
-            height: 40%;
-            padding: 1%;
-            border-bottom: solid thick white;
-        }
-
-        header nav {
-            display: grid;
-        }
-
-        /* list of links to other parts of the website */
-        /* -- they should all be side by side -- */
-        nav ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        nav li {
-            display: inline-block; /* ?idk why but this works? */
-        }
-        nav li:not(:last-of-type)::after {
-            padding: 0%;
-            margin: 0%;
-            content: '|';
-        }
-
-        /* todo: put a bunch of tildes to separate
-        footer::before {
-            width: 100%;
-            the footer from the rest of the page
-        } */
-        footer {
-            border-top: solid thick white;
-            width: auto;
-        }
-
         footer img {
             height: 40px;
         }
@@ -89,34 +30,42 @@
 <body class="remarkdown">
     <header>
         <h1 class="centered" style="text-align: center;">
-            zoë's corner of the internet
+            zoë's
             <!-- julie is fine too :) -->
         </h1>
         <nav style="margin: 1em;">
             <ul class="centered">
                 <li>
-                    <a href="/" alt="home -- you're already there">home</a>
+                    <abbr title="you're already here">home</abbr>
                 </li>
                 <li>
                     <a href="/blog">blogggggggggggg</a>
+                </li>
+                <li>
+                    <a href="/feeds">curated blogs list</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <main style="margin: 5em;">
+    <main class="centered">
+        <h1 class="centered">zoë's corner of the internet</h1>
+
+        is
         <div class="centered">
-            <img src="/badges/construction.gif"/>
+            <img src="/badges/construction.gif" alt="Under construction">
         </div>
     </main>
 
     <footer style="padding: 2em;">
         <p class="centered">
-            Site by @blokyk (find me on <a href="https://github.com/blokyk">github</a> or <a rel="me" href="https://hachyderm.io/@blokyk">mastodon</a> if needed)
+            Site by @blokyk (find me on <a href="https://github.com/blokyk">github</a>
+            or <a rel="me" href="https://hachyderm.io/@blokyk">mastodon</a> if needed,
+            or contact me by writing to hello@[this domain])
         </p>
         <div id="badges" class="centered" style="margin-top: 2em;">
-            <a href="https://glassbeach.band/"><img src="badges/tfgba.png"/></a>
-            <img src="/badges/install_gender_malware.webp"/>
+            <a href="https://glassbeach.band/"><img src="badges/tfgba.png" alt="A 'glass beach' 88x31 badge"></a>
+            <img src="/badges/install_gender_malware.webp" alt="An 'install gender malware' small gif">
         </div>
     </footer>
 </body>

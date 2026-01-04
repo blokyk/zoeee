@@ -1,0 +1,84 @@
+:root {
+    --bg-color: #292636;
+    --content-color: white;
+}
+
+.centered {
+    max-width: fit-content;
+    margin-inline: auto;
+    text-align: center;
+}
+
+.centered p { text-align: initial; }
+.centered a { text-align: initial; }
+.centered h1 { text-align: initial; }
+.centered h2 { text-align: initial; }
+.centered h3 { text-align: initial; }
+.centered h4 { text-align: initial; }
+.centered h5 { text-align: initial; }
+.centered h6 { text-align: initial; }
+.centered dl { text-align: initial; }
+.centered dt { text-align: initial; }
+.centered dd { text-align: initial; }
+
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--content-color);
+    font-family: monospace;
+    margin: 0;
+}
+
+header {
+    font-size: 1.5em;
+    height: 40%;
+    padding: 1%;
+    border-bottom: solid thick white;
+}
+
+header nav {
+    display: grid;
+}
+
+/* list of links to other parts of the website */
+header nav ul {
+    /* they should all be side by side */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header nav li {
+    display: inline-block; /* ?idk why but this works? */
+}
+header nav li:not(:last-of-type)::after {
+    padding: 0%;
+    margin: 0%;
+    content: '|';
+}
+
+main {
+    margin-top: 3em;
+    margin-bottom: 3em;
+
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+main p {
+    text-align: justify !important; /* override the '.centered a' rules */
+}
+
+footer {
+    border-top: solid thick white;
+    width: auto;
+}
+
+/* todo: put a bunch of tildes to separate
+    the footer from the rest of the page */
+/* footer::before {
+    width: 100%;
+} */
