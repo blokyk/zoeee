@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>zoë's blog feeds</title>
+        <link rel="stylesheet" type="text/css" href="../base.css">
+    </head>
+    <body>
+        <header>
+            <h1 class="centered" style="text-align: center;">
+                zoë's
+            </h1>
+            <nav style="margin: 1em;">
+                <ul class="centered">
+                    <li>
+                        <a href="/">home</a>
+                    </li>
+                    <li>
+                        <a href="/blog">blogggggggggggg</a>
+                    </li>
+                    <li>
+                        <abbr title="you're already here">curated blogs list</abbr>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h1 class="centered">curated blog feeds</h1>
+            <h4 class="centered" role="doc-subtitle"><em>OPML feeds of cool blogs, curated by yours truly</em></h3>
+
+            <hr>
+
+            <div class="centered">
+                <dl class="centered" style="width: 50rem;">
+                    <dt>
+                        <h3>
+                            <a href="tech-blogs.opml">coding and technology blogs</a>
+                        </h3>
+                    </dt>
+                    <dd>
+                        <p>
+                            A few blogs about programming & technology in general,
+                            ranging from very practical, "here's what i did to solve
+                            this problem" kinds of articles, to more philosophical or
+                            soapbox-y blogs, talking about the impact of technology
+                            on society and vice-versa.
+                        </p>
+                        <p>
+                            Example: <a href="https://fasterthanli.me">fasterthanlime</a>
+                        </p>
+                    </dd>
+                    <dt>
+                        <h3>
+                            <a href="security.opml">security</a>
+                        </h3>
+                    </dt>
+                    <dd>
+                        <p>
+                            Security researcher blogs talking detailing vulnerabilities,
+                            or general exploit techniques. More or less serious.
+                        </p>
+                        <p>
+                            Example: <a href="https://blog.siguza.net">siguza</a>
+                        </p>
+                    </dd>
+
+                    <dt>
+                        <h3>
+                            <a href="news.opml">news</a>
+                        </h3>
+                    </dt>
+                    <dd>
+                        <p>
+                            Journalism and news, mostly about tech but can range
+                            pretty widely. Pretty empty right now, shoot me an
+                            email or DM (see footer) if you have any suggestions!
+                        </p>
+                        <p>
+                            Example: <a href="https://citationneeded.com">Citaiton Needed</a>
+                        </p>
+                    </dd>
+                </dl>
+
+                <hr>
+
+                <div>
+                    <h2>What is this?</h2>
+                    <p>
+                        These are lists of cool blogs and podcasts I've collected
+                        and want to share with others, distributed in the popular
+                        <a href="https://opml.org">OPML</a> format. This allows
+                        you to read them and keep up to date on the articles
+                        published using an
+                        <a href="https://pluralistic.net/2024/10/16/keep-it-really-simple-stupid/#read-receipts-are-you-kidding-me-seriously-fuck-that-noise">RSS Reader</a>.
+                    </p>
+                    <p>
+                        While OPML is generally used for backing up or
+                        transferring static lists of blogs, a few readers (e.g.
+                        <a href="https://freshrss.org/index.html">FreshRSS</a>)
+                        support so-called "dynamic OPML," which is just a fancy
+                        way of saying it will fetch a list of RSS feeds from a
+                        (link to an) OPML file, and then check those feeds for
+                        new articles.
+                    </p>
+                </div>
+
+                <div>
+                    <h2>Why do this?</h2>
+                    <p>
+                        Over the years, I've had a relatively big bookmark folder
+                        filled with interesting blogs or articles, called "To Read".
+                        For a long time, I just periodically visited the best ones
+                        to see if they had any new articles to read, which was
+                        somewhat of a chore and made me miss out on a bunch of
+                        interesting stuff.
+                    </p>
+
+                    <p>
+                        However, last year I finally made the jump and started
+                        collecting RSS/Atom feeds, which centralized everything
+                        in a convenient RSS reader which would notify for new
+                        articles. If you haven't tried that yet, I <em>really</em>
+                        recommend it, it is supremely convenient and extremely
+                        easy.
+                    </p>
+
+                    <p>
+                        But while I often read articles on my phone, I also stumble
+                        on new blogs through <abbr title="StackOverflow">SO</abbr>
+                        answers and github profiles all the time... on my laptop.
+                        This meant I'd often have to get my phone and enter the
+                        feed URL by hand. When I broke my phone, I started using
+                        my laptop a lot more for entertainment, and having to keep
+                        a synced list of the different blogs I read was kind of a
+                        pain...
+                    </p>
+
+                    <p>
+                        After much beating around the bush, I've finally resolved
+                        to just using a self-hosted RSS aggregator. However, I
+                        also want as much portability as possible, so having my
+                        list of feeds just be a text file I could edit whenever
+                        I wanted to was my dream. In addition, it means it's
+                        easier to share that list with others, and if I add
+                        a new blog I don't have to update multiple apps or
+                        places every time to keep in sync (like I have to for
+                        <a href="/zsotd">zsotd</a>), since there's only
+                        one source of truth: the OPML files.
+                    </p>
+
+                    <p>
+                        PS: When I've finally set up a static generator for this
+                        site, I'd like to have an actual list of each blog in each
+                        feed, so that they're easier to individually peruse (and
+                        it increases their PageRank! let's go 90s!).
+                    </p>
+                </div>
+            </div>
+        </main>
+
+        <footer style="padding: 2em;">
+            <p class="centered">
+                Site by @blokyk (find me on <a href="https://github.com/blokyk">github</a>
+                or <a rel="me" href="https://hachyderm.io/@blokyk">mastodon</a> if needed,
+                or contact me by writing to hello@[this domain])
+            </p>
+        </footer>
+    </body>
+</html>
