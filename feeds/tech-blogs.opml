@@ -24,5 +24,6 @@
     <outline title="mcyoung" text="mcyoung" type="rss" xmlUrl="https://mcyoung.xyz/feed.xml"/>
     <outline title="nerdypepper&apos;s μblog" text="nerdypepper&apos;s μblog" type="rss" xmlUrl="https://oppi.li/index.xml"/>
     <outline title="slembcke&apos;s Blog" text="slembcke&apos;s Blog" type="rss" xmlUrl="https://www.slembcke.net/blog/feed.xml"/>
+    <outline title="Paged Out! Magazine" text="Paged Out! Magazine" type="rss" xmlUrl="https://pagedout.institute/atom.xml"/>
   </body>
 </opml>
