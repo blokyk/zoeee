@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.1">
+  <head>
+    <title>about tech</title>
+  </head>
+  <body>
+    <outline title="Ellie Clifford&apos;s blog" text="Ellie Clifford&apos;s blog" type="rss" xmlUrl="https://ellie.clifford.lol/blog/rss.xml"/>
+    <outline title="Ludicity" text="Ludicity" type="rss" xmlUrl="https://ludic.mataroa.blog/rss/"/>
+  </body>
+</opml>
