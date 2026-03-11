@@ -8,8 +8,8 @@
     <outline title="Krzyhau&apos;s Blog" text="Krzyhau&apos;s Blog" type="rss" xmlUrl="https://blog.krzyhau.pl/atom.xml"/>
     <outline title="Maister&apos;s Graphics Adventures" text="Maister&apos;s Graphics Adventures" type="rss" xmlUrl="https://themaister.net/blog/feed/"/>
     <outline title="Mike Blumenkrantz" text="Mike Blumenkrantz" type="rss" xmlUrl="https://www.supergoodcode.com/feed.xml"/>
-    <outline title="yoh.dev | One dev’s thoughts" text="yoh.dev | One dev’s thoughts" type="rss" xmlUrl="https://yoh.dev/feed.xml"/>
-    <outline title="CuriousCoding — Ragnar Groot Koerkamp" text="CuriousCoding — Ragnar Groot Koerkamp" type="rss" xmlUrl="https://curiouscoding.nl/posts/index.xml"/>
+    <outline title="yoh.dev | One dev&apos;s thoughts" text="yoh.dev | One dev&apos;s thoughts" type="rss" xmlUrl="https://yoh.dev/feed.xml"/>
+    <outline title="CuriousCoding &#x2014; Ragnar Groot Koerkamp" text="CuriousCoding &#x2014; Ragnar Groot Koerkamp" type="rss" xmlUrl="https://curiouscoding.nl/posts/index.xml"/>
     <outline title="Ralf&apos;s Ramblings" text="Ralf&apos;s Ramblings" type="rss" xmlUrl="https://www.ralfj.de/blog/feed.xml"/>
     <outline title="benjojo blog" text="benjojo blog" type="rss" xmlUrl="https://blog.benjojo.co.uk/rss.xml"/>
     <outline title="fasterthanli.me" text="fasterthanli.me" type="rss" xmlUrl="https://fasterthanli.me/index.xml"/>
@@ -20,5 +20,19 @@
     <outline title="nerdypepper&apos;s μblog" text="nerdypepper&apos;s μblog" type="rss" xmlUrl="https://oppi.li/index.xml"/>
     <outline title="Paged Out! Magazine" text="Paged Out! Magazine" type="rss" xmlUrl="https://pagedout.institute/atom.xml"/>
     <outline title="slembcke&apos;s Blog" text="slembcke&apos;s Blog" type="rss" xmlUrl="https://www.slembcke.net/blog/feed.xml"/>
+    <outline title="re:fi.64&apos;s website" text="re:fi.64&apos;s website" type="rss" xmlUrl="https://refi64.dev/atom.xml" />
+    <outline title="lcamtuf&apos;s thing" text="geek culture, algorithms, electronic circuit design, and chainsaw safety tips" type="rss" xmlUrl="https://lcamtuf.substack.com/feed" />
+    <outline title="Perfectly Sane" text="Perfectly Sane" type="rss" xmlUrl="https://uninsane.org/atom.xml" />
+    <outline title="Will Fancher" text="Will Fancher" type="rss" xmlUrl="https://elvishjerricco.github.io/feed.xml" />
+    <outline title="the website of jyn" text="the website of jyn" type="rss" xmlUrl="https://jyn.dev/atom.xml" />
+    <outline title="stuebinm.eu" text="apparently a blog" type="rss" xmlUrl="https://stuebinm.eu/rss.xml" />
+    <outline title="Computing: the Details" text="Lex&apos;s blog of curious computer shenanigans" type="rss" xmlUrl="https://computingthedetails.org/atom.xml" />
+    <outline title="isabel" text="the nix witch" type="rss" xmlUrl="https://isabelroses.com/feed.xml" />
+    <outline title="travis a. everett" text="travis a. everett" type="rss" xmlUrl="https://t-ravis.com/index.xml" />
+    <outline title="Andrew Nesbitt" text="Package management and open source metadata" type="rss" xmlUrl="https://nesbitt.io/feed.xml" />
+    <outline title="Lucy McPhail&apos;s blog" text="Lucy McPhail&apos;s blog" type="rss" xmlUrl="https://lucymcphail.com/atom.xml" />
+    <outline title="v buckenham" text="v buckenham" type="rss" xmlUrl="https://blog.vbuckenham.com/rss" />
+    <outline title="SpiderMonkey JavaScript/WebAssembly Engine" text="SpiderMonkey is Mozilla's JavaScript and WebAssembly Engine, used in Firefox, Servo and various other projects" type="rss" xmlUrl="https://spidermonkey.dev/feed.xml" />
+    <outline title="Thunderseethe&apos;s Devlog" text="Thunderseethe&apos;s Devlog" type="rss" xmlUrl="https://thunderseethe.dev/index.xml" />
   </body>
 </opml>

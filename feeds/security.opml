@@ -8,5 +8,6 @@
     <outline title="Siguza&apos;s Blog" text="Siguza&apos;s Blog" type="rss" xmlUrl="https://blog.siguza.net/rss.xml"/>
     <outline title="mango.pdf.zone" text="mango.pdf.zone" type="rss" xmlUrl="https://mango.pdf.zone/feed.xml"/>
     <outline title="Washi" text="Washi" type="rss" xmlUrl="https://blog.washi.dev/feed.xml"/>
+    <outline title="lyra&apos;s epic blog" text="lyra&apos;s epic blog and its posts!" type="rss" xmlUrl="https://lyra.horse/blog/posts/index.xml" />
   </body>
 </opml>

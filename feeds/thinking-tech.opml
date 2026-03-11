@@ -6,5 +6,6 @@
   <body>
     <outline title="Ellie Clifford&apos;s blog" text="Ellie Clifford&apos;s blog" type="rss" xmlUrl="https://ellie.clifford.lol/blog/rss.xml"/>
     <outline title="Ludicity" text="Ludicity" type="rss" xmlUrl="https://ludic.mataroa.blog/rss/"/>
+    <outline title="Drew DeVault&apos;s blog" text="Drew DeVault&apos;s blog" type="rss" xmlUrl="https://drewdevault.com/blog/index.xml" />
   </body>
 </opml>
