@@ -34,5 +34,6 @@
     <outline title="v buckenham" text="v buckenham" type="rss" xmlUrl="https://blog.vbuckenham.com/rss" />
     <outline title="SpiderMonkey JavaScript/WebAssembly Engine" text="SpiderMonkey is Mozilla's JavaScript and WebAssembly Engine, used in Firefox, Servo and various other projects" type="rss" xmlUrl="https://spidermonkey.dev/feed.xml" />
     <outline title="Thunderseethe&apos;s Devlog" text="Thunderseethe&apos;s Devlog" type="rss" xmlUrl="https://thunderseethe.dev/index.xml" />
+    <outline title="natkr&apos;s ramblings" text="natkr&apos;s ramblings" type="rss" xmlUrl="https://natkr.com/atom.xml" />
   </body>
 </opml>
